@@ -10,5 +10,6 @@ libraryDependencies ++= Seq(
   "org.scalactic" %% "scalactic" % "3.0.4" % "test",
   "org.scalatest" %% "scalatest" % "3.0.4" % "test",
   "org.scala-lang" % "scala-reflect" % "2.11.8",
-  "org.apache.spark" % "spark-mllib_2.11" % "2.4.0" % "provided"
+  "org.apache.spark" % "spark-mllib_2.11" % "2.4.0" % "provided",
+  "org.apache.spark" % "spark-sql_2.11" % "2.4.0" % "provided"
 )
